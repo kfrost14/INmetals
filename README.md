@@ -4,10 +4,10 @@ INmetals is a repository for the "Indiana Metals" Shiny web application that dis
 
 It requires the installation of rCharts from GitHub using the devtools package
 
-require(devtools)
-install_github('rCharts', 'ramnathv')
+  require(devtools)
+  install_github('rCharts', 'ramnathv')
 
 The app can be run from your desktop using the runGitHub() function from the Shiny package
 
-require(shiny)
-runGitHub('INmetals', 'kfrost14')
+  require(shiny)
+  runGitHub('INmetals', 'kfrost14')
