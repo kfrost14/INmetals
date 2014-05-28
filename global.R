@@ -1,3 +1,13 @@
+if(!require(shiny)){install.packages("shiny")}
+if(!require(shinyBS)){install.packages("shinyBS")}
+if(!require(ggplot2)){install.packages("ggplot2")}
+if(!require(maps)){install.packages("maps")}
+if(!require(googleVis)){install.packages("googleVis")}
+if(!require(gridExtra)){install.packages("gridExtra")}
+if(!require(openair)){install.packages("openair")}
+if(!require(rgdal)){install.packages("rgdal")}
+if(!require(RColorBrewer)){install.packages("RColorBrewer")}
+
 library(shiny)
 library(shinyBS)
 library(rCharts)
